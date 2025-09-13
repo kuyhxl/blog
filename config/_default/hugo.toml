@@ -1,12 +1,14 @@
 baseURL = "https://kuyhxl.github.io/blog/"
 theme = "blowfish"
-paginate = 10
 enableEmoji = true
 
 defaultContentLanguage = "ko-kr"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[pagination]
+  pageSize = 10
 
 [languages]
   [languages.ko-kr]
