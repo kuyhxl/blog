@@ -20,8 +20,14 @@ enableEmoji = true
 
 googleAnalytics = "G-PEDMYR1V0K"
 
+[languages]
+ languageName = "Korean"
+ languageCode = "ko-kr"
+ weight = 1
+ [language.ko-kr.params]
+  tilte = "Kuyhxl Dev Blog"
 [pagination]
-  pagerSize = 102
+  pagerSize = 10
 
 [imaging]
   anchor = 'Center'
