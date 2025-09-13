@@ -47,32 +47,27 @@
   pageRef = "users"
   weight = 90
 
-[[main]]
-  name = "Merch"
-  url = "https://www.teepublic.com/user/blowfish-store/t-shirts"
-  weight = 100
-
 #[[main]]
 #  name = "Test"
 #  pageRef = "pagTest"
 #  weight = 1000
 
 [[main]]
-  identifier = "twitter"
-  pre = "x-twitter"
-  url = "https://twitter.com/burufugu"
+  identifier = "Instagram"
+  pre = "Instagram"
+  url = "https://www.instagram.com/kuyhxl/"
   weight = 200
 
 #[[main]]
-#  identifier = "mastodon"
-#  pre = "mastodon"
+#  identifier = "Portfolio"
+#  pre = "Portfolio"
 #  weight = 300
-#  url = "https://masto.ai/@blowfish"
+#  url = "https://google.com"
 
 [[main]]
   identifier = "github"
   pre = "github"
-  url = "https://github.com/nunocoracao/blowfish"
+  url = "https://github.com/kuyhxl"
   weight = 400
 
 

@@ -1,11 +1,11 @@
-languageCode = "en"
-languageName = "English"
+languageCode = "ko"
+languageName = "Korean"
 weight = 1
 title = "Kuyhxl Dev Blog"
 
 [params]
-  displayName = "English"
-  isoCode = "en"
+  displayName = "Korean"
+  isoCode = "ko"
   rtl = false
   dateFormat = "2 January 2006"
   logo = "img/blowfish_logo_transparent.png"
