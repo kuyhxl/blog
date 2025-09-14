@@ -1,0 +1,25 @@
+languageCode = "ko"
+languageName = "Korean"
+weight = 1
+title = "Kuyhxl Dev Blog"
+
+[params]
+  displayName = "Korean"
+  isoCode = "ko"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/blowfish_logo_transparent.png"
+  description = "Whatever"
+  secondaryLogo = "img/blowfish_logo_transparent_light.png"
+
+[params.author]
+  name = "Mark Hwang"
+  email = "markhwang710@gmail.com"
+  imageDark = "img/blowfish_logo.png"
+  image = "img/blowfish_logo_light.png"
+  headline = "Whatever"
+  bio = "Whatever"
+  links = [
+    { Instagram = "https://www.instagram.com/kuyhxl/" },
+    { github = "https://github.com/kuyhxl" },
+  ]
