@@ -16,8 +16,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: Noto Sans KR
+      body: Noto Sans KR
       code: IBM Plex Mono
     colors:
       lightMode:
@@ -222,6 +222,8 @@ plugins:
     options:
       links:
         GitHub: https://github.com/kuyhxl/quartz
+        LinkedIn: https://www.linkedin.com/in/chanhyeokhwang
+        Email: mailto:markhwang710@gmail.com
   - source: github:quartz-community/recent-notes
     enabled: true
     options:
