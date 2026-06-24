@@ -203,13 +203,13 @@ plugins:
     options:
       provider: giscus
       options:
-        repo: TODO:username/repo-name
-        repoId: TODO:your-repo-id
+        repo:"kuyhxl/blog"
+        repoId:"R_kgDOTDf4-A"
         category: Announcements
-        categoryId: TODO:your-category-id
-        mapping: url
-        strict: true
-        reactionsEnabled: true
+        categoryId:"DIC_kwDOTDf4-M4C_xkl"
+        mapping:"pathname"
+        strict::"0"
+        reactionsEnabled:"1"
         inputPosition: bottom
         lightTheme: light
         darkTheme: dark
