@@ -203,13 +203,13 @@ plugins:
     options:
       provider: giscus
       options:
-        repo:"kuyhxl/blog"
-        repoId:"R_kgDOTDf4-A"
+        repo: "kuyhxl/blog"
+        repoId: "R_kgDOTDf4-A"
         category: Announcements
-        categoryId:"DIC_kwDOTDf4-M4C_xkl"
-        mapping:"pathname"
-        strict::"0"
-        reactionsEnabled:"1"
+        categoryId: "DIC_kwDOTDf4-M4C_xkl"
+        mapping: "pathname"
+        strict:: "0"
+        reactionsEnabled: "1"
         inputPosition: bottom
         lightTheme: light
         darkTheme: dark
