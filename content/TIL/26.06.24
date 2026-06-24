@@ -1,0 +1,59 @@
+---
+title: "[TIL] 웹 기초 및 Spring MVC"
+date: 2026-06-24
+tags:
+- Spring
+- SpringMVC
+- Servlet
+- Backend
+- 웹기초
+- TIL
+---
+## 1. 오늘 배운 것
+1.  Gradle
+	- `build.gradle` script
+	- Groovy
+	- Maven Repository
+2. 네트워크 & 웹서버
+	- IP address & Port number
+	- Web Server
+		- e.g. Apache, Nginx
+		- Web servlet(Web Container)
+		- role
+			- Static Contents Management
+			- Dynamic Requests Forwarding
+	- WAS(Web Application Server)
+		- e.g.Tomcat
+	- Spring Boot
+		- XML -> `@`annotation
+		- Apache Tomcat
+3. HTTP
+	- Method
+		- GET/POST/PUT/PATCH/DELETE
+	- Header
+		- State Code
+	- Payload - json
+4. Test Code
+	- JUnit
+5. Lombok
+	- `@Getter`, `@Setter`
+	- `@RequiredArgsConstructor`
+6. application.properties
+7. MVC Design Pattern
+	- Model
+	- View
+	- Controller
+8. Front Controller (DispatcherServlet)
+	- `@Controller`
+	- `@GetMapping`, `@PostMapping`
+9. Page & Data Return
+	- Static Page - `static`
+	- Dynamic Page - Thymeleaf
+	- Data Return - json
+		- `@ResponseBody`
+		- `@RestController` = `@Controller` + `@ResponseBody`
+
+## 2. 아직 모르겠는 것
+- Apache랑 Nginx랑 뭐가 다른건지?
+## 4. 오늘의 한줄
+완벽하게 쓰려 하지 말고, 빠지지 않고 쓰는 걸 목표로 하자!
