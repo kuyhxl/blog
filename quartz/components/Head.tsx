@@ -26,6 +26,7 @@ export default (() => {
     const path = url.pathname as FullSlug
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
+    const iconLightPath = joinSegments(baseDir, "static/icon_white.png")
 
     // Url of current page
     const socialUrl =
@@ -92,6 +93,35 @@ export default (() => {
         )}
 
         <link rel="icon" href={iconPath} />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            (function() {
+              var icons = { light: "${iconLightPath}", dark: "${iconPath}" };
+              function currentTheme() {
+                var saved = document.documentElement.getAttribute("saved-theme");
+                if (saved) return saved;
+                var stored = localStorage.getItem("theme");
+                if (stored) return stored;
+                return window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+              }
+              function setFavicon(theme) {
+                var link = document.querySelector('link[rel="icon"]');
+                if (!link) {
+                  link = document.createElement("link");
+                  link.rel = "icon";
+                  document.head.appendChild(link);
+                }
+                link.href = icons[theme] || icons.dark;
+              }
+              setFavicon(currentTheme());
+              document.addEventListener("themechange", function(e) {
+                setFavicon(e.detail.theme);
+              });
+            })();
+            `,
+          }}
+        />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 

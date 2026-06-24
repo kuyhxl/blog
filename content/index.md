@@ -1,7 +1,5 @@
 ---
-title: Welcome to Quartz
-publish: true
+title: kuyhxl의 개발 블로그
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+화이팅입니다
